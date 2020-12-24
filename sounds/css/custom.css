@@ -1,0 +1,343 @@
+.image-music {
+    object-fit: cover;
+    object-position: 50% 50%;
+    display: block;
+    height: 250px;
+    width: 250px;
+    border-radius: 7px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    height: 250px;
+    width: 250px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: black;
+}
+.hovertoplay:hover .overlay {
+    opacity: 0.2;
+}
+.hovertoplay:hover .image-music {
+    webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+.icon {
+    color: white;
+    cursor: pointer;
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.fa-play-circle:hover {
+    color: white;
+}
+.fa-pause-circle:hover {
+    color: white;
+}
+.fa-play{
+    color: #D63A2B;
+    font-size: 20px;
+    margin-right: 7px;
+    margin-bottom: 2px;
+}
+.fa-pause{
+    color: #D63A2B;
+    font-size: 20px;
+    margin-right: 7px;
+    margin-bottom: 2px;
+}
+.fa-arrow-down {
+    margin-top: 84%;
+    position: absolute;
+    font-size: 41px;
+    margin-left: 70%;
+}
+.fixit {
+    left : 0%;
+}
+@media (max-width: 992px) {
+    .fixit {
+        padding-left: 90px;
+        padding-bottom: 20px;
+        }
+}
+@media (max-width: 768px){
+    .fixit {
+        padding-left: 80px;
+        padding-bottom: 20px;
+        }
+}
+.hovertoplay h4{
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 7px;
+    margin-bottom: 0px;
+}
+.hovertoplay span{
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.theme-footer{
+    background-color: #DD5D50;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.theme-footer a{
+    color: white;
+}
+.theme-footer a:hover{
+    color: black;
+    text-decoration: none;
+}
+.theme-footer h4{
+    text-transform: uppercase !important;
+    padding-bottom: 10px;
+}
+.btn-header {
+    background-color: #f4f3f3;
+    border: none;
+    border-radius: 7px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 4px 2px;
+    transition: 0.3s;
+   }
+   .btn-header:hover {
+    background-color: #ddd;
+    color: #DD5D50;
+    text-decoration: none;
+   }
+.form-control{
+    padding: 1.5rem 1rem;
+    font-weight: 500;
+    border: 3px solid #ff0505;
+    border-radius: 10px;
+}
+.form-control-file, .form-control-range{
+    display: block;
+    width: 100%;
+    padding: 9px 1rem;
+    border: 3px solid #D63A2B;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-primary{
+    background-color: #D63A2B;
+    padding: 14px 40px;
+}
+.btn-primary:hover{
+    background-color: #DD5D50;
+}
+.form-label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: 20px;
+}
+.btn-upload{
+    margin-top: 37px;
+}
+@media (max-width: 768px){
+    .btn-upload{
+        margin-top: 0px;
+    }
+}
+.influence{
+    background-color: white; /* Green */
+    border: none;
+    color: #D63A2B;
+    border: 2px solid #D63A2B;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 4px;
+    cursor: pointer;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
+.ull
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 10em;
+}
+.lii
+{
+    background-image: url(arrow.gif);
+    background-repeat: no-repeat;
+    background-position: 100% .4em;
+    margin:0 0 50px 0; 
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    background: #ffff;
+    border-radius:7px;
+    margin-right:7px;
+}
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: red;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius:7px;
+}
+form.example button:hover {
+    background: #0b7dda;
+}
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.uploadpage .fa-arrow-down{
+    margin-top: 95%;
+    margin-left: 78%;
+}
+a:not([href]):not([tabindex]){
+	color:#eee;
+}
+
+.icon-footer{
+    font-size:50px;
+}
+
+.icons-footer{
+    margin: 20px;
+}
+
+.content-footer p{
+    font-size:15px;
+    margin-bottom: 0rem;
+}
+
+.col-md-5-cols{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+  .col-md-5-cols {
+      width: 20%;
+      float: left;
+  }
+}
+.page-section {
+    padding: 6rem 0;
+}
+.trending-frame{
+    position: relative;
+}
+.trending-frame h1{
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    top: 75%;
+    left: 2%;
+    text-shadow: 0px 2px 6px #000000;
+}
+.trending-frame p{
+    position: absolute;
+    font-weight: bold;
+    left: 2%;
+    top: 85%;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 6px #000000;
+}
+.trending-bg{
+    width:100%;
+    height:450px;
+    object-fit: cover;
+    filter: blur(2px) brightness(60%);
+    -webkit-filter: blur(2px) brightness(60%);
+}
+.trending{
+    position:absolute;
+    object-fit: cover;
+    object-position: 50% 50%;
+    width:300px;
+    height:300px;
+    top:23%;
+    left:60%;
+    border-radius: 7px;
+    box-shadow: 0px 10px 45px black;
+}
+.trending-frame-icon{
+    position:absolute;
+    font-size: 70px;
+    top: 73%;
+    left: 90%;
+    color: white;
+}
+
+.trending-frame-icon:hover {
+    color: #EE2F28;
+}
+
+.form-row{
+    margin-right: -200px;
+}
+
+@media only screen and (max-width: 700px) {
+    .trending{
+        left:10%;
+		top: 27px;
+    }
+    .trending-frame-icon{
+        top: 78%;
+        left: 76%;
+    }
+    .form-row{
+        margin-right: -5px;
+    }
+}
+#mainNav{
+    position: static;
+}
+.header-fix{
+    padding-top: 0rem;
+}
