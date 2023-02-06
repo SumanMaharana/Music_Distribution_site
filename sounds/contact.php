@@ -32,6 +32,7 @@
 </section>
 <script>
 function numaun() {
+        console.log("Number validation started");
   var x, text;
   x = document.getElementById("mobile").value;
   if (isNaN(x)) {
